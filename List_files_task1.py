@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from collections import Counter
 
-def list_files_and_word_freq(target_directory):
+def list_files(target_directory):
     file_paths = []
     word_freq = Counter()
 
